@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI
 on:
   pull_request:
   push:
@@ -28,6 +28,9 @@ jobs:
 
       - name: Run Prettier
         run: npx prettier --check .
+
+      - name: Build
+        run: npm run build
 
       - uses: fossas/fossa-action@v1.1.0
         with:

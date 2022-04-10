@@ -15,7 +15,7 @@
     "url": "git+https://github.com/tobysmith568/tobysmith568.git"
   },
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "build": "ts-node src/index.ts"
   },
   "files": [
     "README.md"
