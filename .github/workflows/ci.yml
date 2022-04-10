@@ -32,6 +32,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - uses: fossas/fossa-action@v1.1.0
+      - uses: fossas/fossa-action@v1.1.1
         with:
           api-key: ${{ secrets.FOSSA_API_KEY }}
