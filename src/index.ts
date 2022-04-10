@@ -1,5 +1,5 @@
-import * as Data from "./data.json";
 import { writeFileSync } from "fs";
+import * as Data from "./data.json";
 
 const result = `### Hi!
 

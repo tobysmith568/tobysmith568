@@ -1,5 +1,12 @@
 {
-  "accounts": ["tobysmith568", "tobysmith568-university", "Fibre-App", "TobyAndToby", "Ebrisoft", "TacticalDesign"],
+  "accounts": [
+    "tobysmith568",
+    "tobysmith568-university",
+    "Fibre-App",
+    "TobyAndToby",
+    "Ebrisoft",
+    "TacticalDesign"
+  ],
   "tags": [
     {
       "term": "typescript",
