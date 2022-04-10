@@ -1,26 +1,29 @@
 {
   "name": "tobysmith568",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "ts-node src/index.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tobysmith568/tobysmith568.git"
-  },
+  "version": "0.0.0",
   "author": {
     "name": "Toby Smith",
     "email": "tobysmith568@hotmail.co.uk",
     "url": "https://tobysmith.uk"
   },
   "license": "UNLICENSED",
+  "description": "My GitHub profile readme!",
+  "prettier": "@tobysmith568/prettier-config",
+  "homepage": "https://github.com/tobysmith568/tobysmith568#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobysmith568/tobysmith568.git"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "files": [
+    "README.md"
+  ],
   "bugs": {
     "url": "https://github.com/tobysmith568/tobysmith568/issues"
   },
-  "homepage": "https://github.com/tobysmith568/tobysmith568#readme",
-  "prettier": "@tobysmith568/prettier-config",
+  "dependencies": {},
   "devDependencies": {
     "@tobysmith568/prettier-config": "^2.0.0",
     "@types/node": "^16.0.0",
