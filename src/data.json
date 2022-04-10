@@ -30,6 +30,13 @@
       "logoColour": "white"
     },
     {
+      "term": "react",
+      "label": "React",
+      "colour": "61DAFB",
+      "logo": "React",
+      "logoColour": "black"
+    },
+    {
       "term": "node",
       "label": "Node.js",
       "colour": "026E00",
