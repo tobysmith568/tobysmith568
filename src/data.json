@@ -42,13 +42,6 @@
       "colour": "026E00",
       "logo": "node.js",
       "logoColour": "white"
-    },
-    {
-      "term": "electron",
-      "label": "Electron",
-      "colour": "2B2E3A",
-      "logo": "Electron",
-      "logoColour": "white"
     }
   ],
   "links": [
