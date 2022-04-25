@@ -35,6 +35,6 @@ jobs:
       - name: Ensure README.md is up to date
         run: git diff --quiet
 
-      - uses: fossas/fossa-action@v1.1.1
+      - uses: fossas/fossa-action@v1.3.1
         with:
           api-key: ${{ secrets.FOSSA_API_KEY }}
