@@ -3,9 +3,9 @@
   "version": "0.2",
   "ignorePaths": [],
   "dictionaryDefinitions": [],
-  "dictionaries": [],
+  "dictionaries": ["en-gb"],
   "words": [],
   "ignoreWords": ["tobysmith", "fossa", "Ebrisoft"],
   "import": [],
-  "ignoreRegExpList": []
+  "ignoreRegExpList": ["\"colour\": \"[A-z0-9]{6}\""]
 }
