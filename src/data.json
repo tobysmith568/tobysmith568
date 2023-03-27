@@ -1,11 +1,11 @@
 {
   "accounts": [
     "tobysmith568",
-    "tobysmith568-university",
-    "Fibre-App",
     "TobyAndToby",
-    "Ebrisoft",
-    "TacticalDesign"
+    "git-filesystem",
+    "getsetup-cli",
+    "Fibre-App",
+    "tobysmith568-university"
   ],
   "tags": [
     {
@@ -23,18 +23,18 @@
       "logoColour": "white"
     },
     {
-      "term": "angular",
-      "label": "Angular",
-      "colour": "DD0330",
-      "logo": "Angular",
-      "logoColour": "white"
-    },
-    {
       "term": "react",
       "label": "React",
       "colour": "61DAFB",
       "logo": "React",
       "logoColour": "black"
+    },
+    {
+      "term": "angular",
+      "label": "Angular",
+      "colour": "DD0330",
+      "logo": "Angular",
+      "logoColour": "white"
     },
     {
       "term": "nodejs",

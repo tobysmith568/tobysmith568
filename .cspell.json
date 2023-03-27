@@ -5,7 +5,7 @@
   "dictionaryDefinitions": [],
   "dictionaries": ["en-gb"],
   "words": [],
-  "ignoreWords": ["tobysmith", "fossa", "Ebrisoft"],
+  "ignoreWords": ["tobysmith", "fossa", "Ebrisoft", "getsetup"],
   "import": [],
   "ignoreRegExpList": ["\"colour\": \"[A-z0-9]{6}\""]
 }
