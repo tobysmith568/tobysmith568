@@ -11,7 +11,7 @@ ${tags()}
 
 ${links()}
 
-Find my university projects <a href="https://github.com/tobysmith568-university">here</a>.  
+Find my university projects <a href="https://github.com/tobysmith568-university">here</a>.
 Find some projects I have collaborated on <a href="https://github.com/TobyAndToby">here</a>.
 `;
 
@@ -21,7 +21,9 @@ function tags(): string {
   const lines: string[] = [];
 
   for (const tag of Data.tags) {
-    const searchLink = `https://github.com/search?q=${tagAccounts()}+${tag.term}`;
+    const searchLink = `https://github.com/search?q=${tagAccounts()}+${
+      tag.term
+    }&type=repositories&s=updated&o=desc`;
     const shieldLink = `https://img.shields.io/badge/${tag.label}-%23${tag.colour}.svg?style=for-the-badge&logo=${tag.logo}&logoColor=${tag.logoColour}&link=${searchLink}`;
     lines.push(`<a href="${searchLink}"><img src="${shieldLink}"/></a>`);
   }
