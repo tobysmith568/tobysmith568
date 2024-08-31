@@ -1,0 +1,4 @@
+{
+  "$schema": "https://license-cop.js.org/schema.json",
+  "extends": "@license-cop/permissive"
+}

@@ -16,32 +16,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install dependencies
-        run: npm ci
+      - name: Checkout
+        uses: tobysmith568/actions/.github/actions/checkout-pnpm-project@main
 
       - name: Run ESLint
-        run: npx eslint ./src --max-warnings 0
+        run: pnpm exec eslint ./src --max-warnings 0
 
       - name: Run Prettier
-        run: npx prettier --check .
+        run: pnpm exec prettier --check .
 
       - name: Run CSpell
-        run: npx cspell **/*.*
+        run: pnpm exec cspell **/*.*
+
+      - name: Check Licenses
+        run: pnpm exec license-cop
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
 
       - name: Ensure README.md is up to date
         run: git diff --quiet
-
-      - uses: fossas/fossa-action@v1.3.3
-        with:
-          api-key: ${{ secrets.FOSSA_API_KEY }}
