@@ -10,6 +10,7 @@
   "license": "UNLICENSED",
   "description": "My GitHub profile readme!",
   "prettier": "@tobysmith568/prettier-config",
+  "packageManager": "pnpm@9.9.0+sha256.7a4261e50d9a44d9240baf6c9d6e10089dcf0a79d0007f2a26985a6927324177",
   "homepage": "https://github.com/tobysmith568/tobysmith568#readme",
   "repository": {
     "type": "git",
@@ -25,13 +26,15 @@
     "url": "https://github.com/tobysmith568/tobysmith568/issues"
   },
   "devDependencies": {
-    "@tobysmith568/prettier-config": "^2.0.0",
+    "@license-cop/permissive": "^1.6.2",
+    "@tobysmith568/prettier-config": "^2.2.1",
     "@types/node": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "cspell": "^8.0.0",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^9.0.0",
+    "license-cop": "^1.6.2",
     "ts-node": "^10.0.0",
     "typescript": "^5.0.0"
   }
