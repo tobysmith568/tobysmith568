@@ -2,40 +2,17 @@
   "private": true,
   "name": "tobysmith568",
   "version": "0.0.0",
-  "author": {
-    "name": "Toby Smith",
-    "email": "contact@tobythe.dev",
-    "url": "https://tobysmith.uk"
-  },
   "license": "UNLICENSED",
   "description": "My GitHub profile readme!",
   "prettier": "@tobysmith568/prettier-config",
   "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
-  "homepage": "https://github.com/tobysmith568/tobysmith568#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tobysmith568/tobysmith568.git"
-  },
   "scripts": {
-    "build": "ts-node src/index.ts"
-  },
-  "files": [
-    "README.md"
-  ],
-  "bugs": {
-    "url": "https://github.com/tobysmith568/tobysmith568/issues"
+    "build": "mustache ./src/data.json ./src/readme.mustache > README.md"
   },
   "devDependencies": {
     "@license-cop/permissive": "^1.6.2",
     "@tobysmith568/prettier-config": "^2.2.1",
-    "@types/node": "^18.0.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0",
-    "cspell": "^8.0.0",
-    "eslint": "^8.13.0",
-    "eslint-config-prettier": "^9.0.0",
     "license-cop": "^1.6.2",
-    "ts-node": "^10.0.0",
-    "typescript": "^5.0.0"
+    "mustache": "^4.2.0"
   }
 }
