@@ -1,61 +1,32 @@
 {
-  "accounts": [
-    "tobysmith568",
-    "TobyAndToby",
-    "git-filesystem",
-    "getsetup-cli",
-    "Fibre-App",
-    "tobysmith568-university"
-  ],
-  "tags": [
-    {
-      "term": "typescript",
-      "label": "Typescript",
-      "colour": "007BCD",
-      "logo": "Typescript",
-      "logoColour": "white"
-    },
-    {
-      "term": "csharp",
-      "label": "C--Sharp",
-      "colour": "330081",
-      "logo": "C%20Sharp",
-      "logoColour": "white"
-    },
-    {
-      "term": "react",
-      "label": "React",
-      "colour": "61DAFB",
-      "logo": "React",
-      "logoColour": "black"
-    },
-    {
-      "term": "angular",
-      "label": "Angular",
-      "colour": "DD0330",
-      "logo": "Angular",
-      "logoColour": "white"
-    },
-    {
-      "term": "nodejs",
-      "label": "Node.js",
-      "colour": "026E00",
-      "logo": "node.js",
-      "logoColour": "white"
-    }
-  ],
-  "links": [
-    {
-      "url": "https://tobysmith.uk",
-      "label": "Website",
-      "colour": "1E73BE",
-      "logoColour": "white"
-    },
-    {
-      "url": "https://www.linkedin.com/in/tobysmith568/",
-      "label": "Linkedin",
-      "colour": "0077B5",
-      "logoColour": "white"
-    }
-  ]
+  "contact": {
+    "methods": [
+      {
+        "label": "Email",
+        "url": "mailto:contact@tobythe.dev",
+        "colour": "5B92E5",
+        "logo": "maildotru",
+        "logoColour": "white"
+      },
+      {
+        "label": "Website",
+        "url": "https://tobysmith.uk",
+        "colour": "1E90FF",
+        "logo": "htmx",
+        "logoColour": "white"
+      },
+      {
+        "label": "Linkedin",
+        "url": "https://www.linkedin.com/in/tobysmith568/",
+        "colour": "0077B5",
+        "logo": "linkedin",
+        "logoColour": "white"
+      }
+    ]
+  },
+  "projects": true,
+  "blog": {
+    "url": "https://tobysmith.uk/blog"
+  },
+  "socials": true
 }
