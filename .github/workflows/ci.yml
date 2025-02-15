@@ -22,6 +22,9 @@ jobs:
       - name: Run Prettier
         run: pnpm exec prettier --check .
 
+      - name: Run Prettier
+        run: pnpm exec eslint . --max-warnings 0
+
       - name: Check Licenses
         run: pnpm exec license-cop
 
